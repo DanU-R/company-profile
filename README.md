@@ -1,47 +1,68 @@
-# Company Profile Project
+<div align='center'>
+   <h1>company-profile</h1>
+   <p>Your one-stop solution for creating stunning company profiles.</p>
+   
+   <p>
+      <img src='https://img.shields.io/github/last-commit/DanU-R/company-profile?style=for-the-badge&logo=github&color=blue' alt='Last Commit'>
+      <img src='https://img.shields.io/github/license/DanU-R/company-profile?style=for-the-badge&logo=github&color=green' alt='License'>
+      <img src='https://img.shields.io/github/stars/DanU-R/company-profile?style=for-the-badge&logo=github&color=yellow' alt='Stars'>
+   </p>
+</div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300" alt="Laravel Logo">
-</p>
+## 📖 About
+company-profile is a powerful web application designed to help businesses create and showcase their company profiles in a visually appealing manner. Built with modern technologies, it offers a seamless user experience and efficient performance.
 
-Aplikasi Web Company Profile yang dibangun menggunakan framework **Laravel**. Proyek ini dirancang untuk menyediakan informasi profil perusahaan secara dinamis, profesional, dan responsif.
+## 🚀 Key Features
+* ✅ **Dynamic Image Manipulation:** Utilize the `intervention/image` library to easily manipulate images for your profiles.
+* ✅ **Robust Backend Framework:** Built on `Laravel`, providing a solid foundation for your application with MVC architecture.
+* ✅ **Real-time Data Handling:** Leverage `Laravel Tinker` for real-time interaction with your application's data.
+* ✅ **Responsive Design:** Employ `TailwindCSS` and `SCSS` to ensure your profiles look great on any device.
+* ✅ **Seamless API Integration:** Use `Axios` for smooth HTTP requests to external services, enhancing your profile's functionality.
 
-## 🚀 Fitur Utama
-- **Landing Page**: Halaman depan yang menarik untuk menampilkan ringkasan perusahaan.
-- **Tentang Kami**: Informasi detail mengenai visi, misi, dan sejarah perusahaan.
-- **Layanan/Produk**: Menampilkan daftar layanan atau produk yang ditawarkan.
-- **Galeri/Portfolio**: Menampilkan foto kegiatan atau proyek yang telah diselesaikan.
-- **Kontak**: Formulir atau informasi kontak untuk memudahkan klien menghubungi perusahaan.
-- **Admin Panel**: (Opsional) Manajemen konten melalui dashboard admin.
+## 🛠️ Tech Stack
+### Backend
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-F0522B?style=for-the-badge&logo=laravel&logoColor=white)
 
-## 🛠️ Teknologi yang Digunakan
-- **Framework:** [Laravel 10.x](https://laravel.com) (atau sesuaikan dengan versi Anda)
-- **Database:** MySQL
-- **Frontend:** Bootstrap / Tailwind CSS (pilih salah satu)
-- **Icons:** FontAwesome / Heroicons
+### Frontend
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-4A3C6D?style=for-the-badge&logo=vite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## 💻 Cara Instalasi
+### Tools
+![Composer](https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
-Ikuti langkah-langkah berikut untuk menjalankan proyek di komputer lokal Anda:
+## ⚙️ Installation
+To get started with company-profile, follow these steps:
 
-1. **Clone repositori ini:**
-git clone [https://github.com/DanU-R/company-profile.git](https://github.com/DanU-R/company-profile.git)
-   cd company-profile
-2. Instal dependesi PHP
+1. Clone the repository:
+```bash
+git clone https://github.com/DanU-R/company-profile.git
+```
+
+2. Navigate into the project directory:
+```bash
+cd company-profile
+```
+
+3. Install PHP dependencies:
+```bash
 composer install
-3. Instal dependensi Frontend (NPM)
-npm install && npm run dev
-4. Salin file .env
-cp .env.example .env
-5. Generate Application Key
-php artisan key:generate
-6. Konfigurasi Database: Buka file .env dan sesuaikan DB_DATABASE, DB_USERNAME, dan DB_PASSWORD dengan database lokal Anda.
-7. Jalankan Migrasi & Seeder
-php artisan migrate --seed
-8. Jalankan Server
-php artisan migrate --seed
-Akses di browser: http://localhost:8000
+```
 
-📄 Lisensi
+4. Install JavaScript dependencies:
+```bash
+npm install
+```
 
-Proyek ini bersifat open-source dan berada di bawah lisensi MIT
+5. Build the assets:
+```bash
+npm run build
+```
+
+## 🤝 Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue.
+
+## 📄 License
+This project is licensed under the MIT License.
