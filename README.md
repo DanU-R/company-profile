@@ -1,6 +1,6 @@
 <div align='center'>
    <h1>company-profile</h1>
-   <p>Your one-stop solution for creating stunning company profiles.</p>
+   <p>Solusi Terbaik untuk Profil Perusahaan Anda.</p>
    
    <p>
       <img src='https://img.shields.io/github/last-commit/DanU-R/company-profile?style=for-the-badge&logo=github&color=blue' alt='Last Commit'>
@@ -10,59 +10,35 @@
 </div>
 
 ## 📖 About
-company-profile is a powerful web application designed to help businesses create and showcase their company profiles in a visually appealing manner. Built with modern technologies, it offers a seamless user experience and efficient performance.
+company-profile adalah proyek yang dirancang untuk membantu perusahaan dalam membuat dan mengelola profil mereka dengan cara yang sederhana dan efisien. Menggunakan teknologi Laravel dan Tailwind CSS, proyek ini memberikan antarmuka yang responsif dan modern, memungkinkan pengguna untuk dengan mudah menampilkan informasi penting tentang perusahaan mereka.
 
 ## 🚀 Key Features
-* ✅ **Dynamic Image Manipulation:** Utilize the `intervention/image` library to easily manipulate images for your profiles.
-* ✅ **Robust Backend Framework:** Built on `Laravel`, providing a solid foundation for your application with MVC architecture.
-* ✅ **Real-time Data Handling:** Leverage `Laravel Tinker` for real-time interaction with your application's data.
-* ✅ **Responsive Design:** Employ `TailwindCSS` and `SCSS` to ensure your profiles look great on any device.
-* ✅ **Seamless API Integration:** Use `Axios` for smooth HTTP requests to external services, enhancing your profile's functionality.
+* ✅ **Profil Perusahaan yang Mudah Dikelola:** Menggunakan Laravel dan Blade untuk membuat antarmuka pengguna yang intuitif.
+* ✅ **Pengunggahan Gambar yang Efisien:** Memanfaatkan intervention/image untuk mengelola pengunggahan dan pemrosesan gambar.
+* ✅ **Desain Responsif dengan Tailwind CSS:** Semua tampilan dibuat dengan Tailwind CSS untuk pengalaman pengguna yang optimal di perangkat apa pun.
+* ✅ **Pengelolaan Data Sederhana:** Menggunakan FakerPHP untuk menghasilkan data dummy dan memudahkan pengujian.
+* ✅ **Komunikasi yang Lancar dengan Axios:** Menggunakan Axios untuk melakukan permintaan HTTP secara efisien.
 
 ## 🛠️ Tech Stack
-### Backend
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-F0522B?style=for-the-badge&logo=laravel&logoColor=white)
-
-### Frontend
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-4A3C6D?style=for-the-badge&logo=vite&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-### Tools
-![Composer](https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white)
-![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.0-777BB4?style=for-the-badge&logo=php)
+![Laravel](https://img.shields.io/badge/Laravel-8.x-EF5B25?style=for-the-badge&logo=laravel)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-2.x-06B6D4?style=for-the-badge&logo=tailwindcss)
+![Vite](https://img.shields.io/badge/Vite-2.x-4B5563?style=for-the-badge&logo=vite)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript)
+![Axios](https://img.shields.io/badge/Axios-0.21.1-5A29E3?style=for-the-badge&logo=axios)
 
 ## ⚙️ Installation
-To get started with company-profile, follow these steps:
+Ikuti langkah-langkah berikut untuk mengatur proyek ini secara lokal:
 
-1. Clone the repository:
-```bash
-git clone https://github.com/DanU-R/company-profile.git
-```
-
-2. Navigate into the project directory:
-```bash
-cd company-profile
-```
-
-3. Install PHP dependencies:
-```bash
-composer install
-```
-
-4. Install JavaScript dependencies:
-```bash
-npm install
-```
-
-5. Build the assets:
-```bash
-npm run build
-```
+1. `cp .env.example .env` (Pengaturan Lingkungan)
+2. `composer install` (Dependencies)
+3. `php artisan key:generate`
+4. `php artisan migrate` (Database)
+5. `npm install && npm run build` (Assets)
+6. `php artisan serve` 
 
 ## 🤝 Contributing
-Contributions are welcome! Please feel free to submit a pull request or open an issue.
+Kontribusi sangat diterima! Silakan kirimkan pull request atau buka isu jika Anda memiliki saran atau perbaikan.
 
 ## 📄 License
-This project is licensed under the MIT License.
+Proyek ini dilisensikan di bawah MIT License.
